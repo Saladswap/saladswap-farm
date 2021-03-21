@@ -9,8 +9,8 @@ https://saladswap.finance. Feel free to read the code. More details coming soon.
 
 ### BSCMAINNET
 
-- SaladToken - https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82
-- MasterChef - https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E
+- SaladToken - https://bscscan.com/token/0x9EffAf5A3684c510263075e2E91d2594CcA671b2
+- MasterChef - https://bscscan.com/address/0x34f3D65814313f4Ddcdc2c52f9ce0c83F6e96084
 - (Uni|Salad)swapV2Factory - https://bscscan.com/address/0xBCfCcbde45cE874adCB698cC183deBcF17952812
 - (Uni|Salad)swapV2Router02 - https://bscscan.com/address/0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F
 - (Uni|Salad)swapV2Pair init code hash - `0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66`

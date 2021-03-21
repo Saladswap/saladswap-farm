@@ -1,16 +1,17 @@
 {
   "name": "@saladswap/saladswap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "migrate": "truffle migrate --network testnet --reset",
     "compile": "truffle compile --network testnet",
     "test": "npx builder test",
-    "coverage": "npx builder coverage"
+    "coverage": "npx builder coverage",
+    "flatten": "truffle-flattener contracts/BnbStaking.sol > flatten-contracts/BnbStaking.sol && truffle-flattener contracts/LotteryRewardPool.sol > flatten-contracts/LotteryRewardPool.sol && truffle-flattener contracts/MasterChef.sol > flatten-contracts/MasterChef.sol && truffle-flattener contracts/SaladToken.sol > flatten-contracts/SaladToken.sol && truffle-flattener contracts/SauceBar.sol > flatten-contracts/SauceBar.sol && truffle-flattener contracts/SmartChef.sol > flatten-contracts/SmartChef.sol && truffle-flattener contracts/SousChef.sol > flatten-contracts/SousChef.sol"
   },
   "dependencies": {
     "@openzeppelin/test-helpers": "^0.5.6",
-    "@saladswap/salad-swap-lib": "^0.0.1",
+    "@saladswap/salad-swap-lib": "^0.0.2",
     "truffle": "^5.1.58",
     "truffle-flattener": "^1.4.4",
     "truffle-hdwallet-provider": "^1.0.17"

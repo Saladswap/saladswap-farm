@@ -98,7 +98,7 @@ interface IBEP20 {
 
 contract SaladVoterProxy {
     // SAUCE
-    address public constant votes = 0x009cF7bC57584b7998236eff51b98A168DceA9B0;
+    address public constant votes = 0x55c7ED40F0f64C32ba8c28933d72BF05E3Cf8a04;
 
     function decimals() external pure returns (uint8) {
         return uint8(18);

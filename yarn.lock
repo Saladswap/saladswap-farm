@@ -666,10 +666,10 @@
     path-browserify "^1.0.0"
     url "^0.11.0"
 
-"@saladswap/salad-swap-lib@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@saladswap/salad-swap-lib/-/salad-swap-lib-0.0.1.tgz#12efef0434c739b758d210009d45ca7e183af8c2"
-  integrity sha512-/xMbob6i1rsMD8V778oa1kOPdznEQtxp41+OA96zG3ogjVNB+UgT4leY8t3db//JYAqYwBKRPvE3x3XyoWKlbg==
+"@saladswap/salad-swap-lib@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@saladswap/salad-swap-lib/-/salad-swap-lib-0.0.2.tgz#cb72f27f14e974f4c149b715b3f02afd1d427e0a"
+  integrity sha512-kJX5bXczvhg+QMFBJuLghAf7Xbx+bp/2mQdYNgzKqbDlre+wtRJ2CQhFBgF99nSNasR1Rv21N/FbkDUWrhqyaA==
 
 "@sentry/core@5.29.2":
   version "5.29.2"
